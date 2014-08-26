@@ -39,7 +39,7 @@ Thanks to Leandro Boffi (http://leandrob.com/) for the nodejs version and a grea
 
     my $canonicalized-data  = '<SignedInfo xmlns="...">...</SignedInfo>';
     #  ^--- use the correct c14n version according to your XML document
-    my $signature-value     = hmac($key, $data, &sha1);
+    my $signature-value     = hmac($key, $canonicalized-data, &sha1);
     my $signature-value-b64 = MIME::Base64.encode($signature-value, :oneline);
     #  ^--- this is what you would add to your XML document
 ```
