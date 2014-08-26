@@ -30,9 +30,18 @@ Thanks to Leandro Boffi (http://leandrob.com/) for the nodejs version and a grea
 
     # Build the key to sign an XML document
     my $key     = psha1($client-secret, $server-secret);
-    my $key_b64 = MIME::Base64.encode($key, :oneline);
+    my $key-b64 = MIME::Base64.encode($key, :oneline);
+    #  ^--- you usually do not need the Base64 version of the key
 
-    # TODO: Show how to actually sign a document using the generated key
+    # To actually use this key to sign a document, do something like this
+    use Digest::HMAC;
+    use Digest;
+
+    my $canonicalized-data  = '<SignedInfo xmlns="...">...</SignedInfo>';
+    #  ^--- use the correct c14n version according to your XML document
+    my $signature-value     = hmac($key, $data, &sha1);
+    my $signature-value-b64 = MIME::Base64.encode($signature-value, :oneline);
+    #  ^--- this is what you would add to your XML document
 ```
 
 ## Functions ##
