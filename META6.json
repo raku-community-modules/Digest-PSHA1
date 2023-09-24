@@ -1,13 +1,26 @@
 {
-    "perl" : "6.*",
-    "name" : "Digest::PSHA1",
-    "license" : "MIT",
-    "version" : "1.0.0",
-    "author" : "github:FROGGS",
-    "description" : "pseudorandom hashing algorithm as per rfc5246",
-    "depends" : [ "Digest", "Digest::HMAC" ],
-    "provides" : {
-        "Digest::PSHA1" : "lib/Digest/PSHA1.pm"
-    },
-    "source-url" : "git://github.com/FROGGS/p6-Digest-PSHA1.git"
+  "auth": "zef:raku-community-modules",
+  "build-depends": [
+  ],
+  "depends": [
+    "Digest",
+    "Digest::HMAC"
+  ],
+  "description": "Pseudorandom hashing algorithm as per RFC5246",
+  "license": "MIT",
+  "name": "Digest::PSHA1",
+  "perl": "6.d",
+  "provides": {
+    "Digest::PSHA1": "lib/Digest/PSHA1.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "git://github.com/raku-community-modules/Digest::PSHA1.git",
+  "tags": [
+    "DIGEST",
+    "PSHA1"
+  ],
+  "test-depends": [
+  ],
+  "version": "1.0.1"
 }
