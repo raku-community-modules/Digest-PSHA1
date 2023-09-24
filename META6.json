@@ -3,7 +3,7 @@
   "build-depends": [
   ],
   "depends": [
-    "Digest",
+    "Digest::SHA",
     "Digest::HMAC"
   ],
   "description": "Pseudorandom hashing algorithm as per RFC5246",
