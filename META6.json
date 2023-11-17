@@ -15,7 +15,7 @@
   },
   "resources": [
   ],
-  "source-url": "git://github.com/raku-community-modules/Digest::PSHA1.git",
+  "source-url": "https://github.com/raku-community-modules/Digest-PSHA1.git",
   "tags": [
     "DIGEST",
     "PSHA1"
