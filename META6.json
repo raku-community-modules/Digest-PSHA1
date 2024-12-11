@@ -1,5 +1,6 @@
 {
   "auth": "zef:raku-community-modules",
+  "author": "Tobias Leich",
   "build-depends": [
   ],
   "depends": [

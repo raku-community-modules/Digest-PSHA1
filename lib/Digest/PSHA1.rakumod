@@ -138,7 +138,9 @@ Comments and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2014-2017 Tobias Leich, 2023 Raku Community
+Copyright 2014-2017 Tobias Leich
+
+Copyright 2023, 2024 Raku Community
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

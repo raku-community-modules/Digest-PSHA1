@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/raku-community-modules/Digest-PSHA1/workflows/test/badge.svg)](https://github.com/raku-community-modules/Digest-PSHA1/actions)
+[![Actions Status](https://github.com/raku-community-modules/Digest-PSHA1/actions/workflows/linux.yml/badge.svg)](https://github.com/raku-community-modules/Digest-PSHA1/actions) [![Actions Status](https://github.com/raku-community-modules/Digest-PSHA1/actions/workflows/macos.yml/badge.svg)](https://github.com/raku-community-modules/Digest-PSHA1/actions) [![Actions Status](https://github.com/raku-community-modules/Digest-PSHA1/actions/workflows/windows.yml/badge.svg)](https://github.com/raku-community-modules/Digest-PSHA1/actions)
 
 NAME
 ====
@@ -87,7 +87,9 @@ Source can be located at: https://github.com/raku-community-modules/Digest-PSHA1
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2014-2017 Tobias Leich, 2023 Raku Community
+Copyright 2014-2017 Tobias Leich
+
+Copyright 2023, 2024 Raku Community
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

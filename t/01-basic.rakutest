@@ -17,3 +17,5 @@ my $d = Buf.new(131,251,152,102,102,23,238,179,166,253,126,212,87,139,172,174,24
 
 is psha1($a, $b).list, $c.list, 'psha1(grrlU, YLABh) is Wv3Qz';
 is psha1($b, $a).list, $d.list, 'psha1(YLABh, grrlU) is g/uYZ';
+
+# vim: expandtab shiftwidth=4
